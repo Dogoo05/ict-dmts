@@ -12,10 +12,10 @@ const hardSentences = [
 ];
 
 const layout = [
-  ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Е", "Щ", "Backspace"],
-  ["Tab", "Ф", "Ц", "У", "Ж", "Э", "Н", "Г", "Ш", "Ү", "З", "К", "[", "]"],
-  ["CapsLock", "Й", "Ы", "Б", "Ө", "А", "Х", "Р", "О", "Л", "Д", "П", "Enter"],
-  ["Shift", "Я", "Ч", "Ё", "С", "М", "И", "Т", "Ь", "В", "Ю", "-", "Shift"],
+  ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Е", "Щ", "delete"],
+  ["Ф", "Ц", "У", "Ж", "Э", "Н", "Г", "Ш", "Ү", "З", "К"],
+  ["Й", "Ы", "Б", "Ө", "А", "Х", "Р", "О", "Л", "Д", "П", "Enter"],
+  ["Я", "Ч", "Ё", "С", "М", "И", "Т", "Ь", "В", "Ю", ".", "Shift"],
 ];
 
 export default function KeyboardTrainer() {
@@ -325,7 +325,7 @@ export default function KeyboardTrainer() {
 
         {/* Keyboard */}
         <div className="">
-          <div className="flex flex-col w-auto">
+          <div className="flex flex-col w-auto p-5">
             {layout.map((row, ri) => (
               <div key={ri} className="flex justify-center gap-2">
                 {row.map((k) => (
@@ -333,7 +333,7 @@ export default function KeyboardTrainer() {
                     key={k}
                     onClick={() => handleKeyClick(k)}
                     disabled={blocked || !isRunning}
-                    className={`select-none rounded-lg  text-auto  shadow-md active:scale-9 transition ${getKeyStyle(
+                    className={`select-none p-[1px] rounded-l h-6 w-5 shadow-md active:scale-9 transition ${getKeyStyle(
                       k
                     )}`}
                   >

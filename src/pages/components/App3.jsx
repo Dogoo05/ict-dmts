@@ -17,9 +17,9 @@ function ProgressBar({ value }) {
   export default function Appp() {
     return (
       <div className="p-8 max-w-sm mx-auto">
-        <h1 className="text-lg font-semibold mb-4">Програмчлалын хэл</h1>
+        <h1 className="text-lg font-semibold mb-4 w-[100px]"></h1>
         {/* Хүссэн хувь дамжуулна */}
-        <ProgressBar value={20} />
+        <ProgressBar value={0} />
       </div>
     );
   }

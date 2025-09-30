@@ -6,7 +6,8 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold mb-4">Нууцлалын бодлого</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
-          дэлгэрмөрөн цогцолбор сургуулийн 10-Г ангийн сурагч Тэлмүүн,  Долгорсүрэн бүтээв.
+            Дэлгэрмөрөн сургуулийн 10-Г ангийн сурагч Тэлмүүн, Долгорсүрэн
+            бүтээв.
           </p>
           <div className="flex gap-4 mt-4 text-xl">
             <i className="fa-regular fa-copyright"></i>
@@ -48,30 +49,13 @@ export default function Footer() {
 
         {/* Холбоо барих */}
         <div>
-          <h2 className="text-lg font-semibold mb-4">Холбоо барих</h2>
-          <ul className="text-gray-300 text-sm space-y-2">
-            <li>📅 Даваа – Баасан: 08:30 – 17:30</li>
-            <li>📅 Бямба – Ням: Амарна</li>
-            <li>📧 medeelel@.mn</li>
-            <li>📍9911****</li>
-          </ul>
+          
         </div>
       </div>
 
       {/* доод хэсгийн social */}
       <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-        <p>© 2025 ЕБС Сургалт.Бүх эрх хуулиар хамгаалагдаагүй</p>
-        <div className="flex gap-4 mt-4 md:mt-0 text-xl">
-          <a href="#">
-            <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a href="#">
-            <i className="fa-brands fa-youtube"></i>
-          </a>
-          <a href="#">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-        </div>
+        
       </div>
     </footer>
   );

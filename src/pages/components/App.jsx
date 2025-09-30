@@ -19,7 +19,7 @@ function ProgressBar({ value }) {
 export default function Apps() {
   return (
     <div className="p-8 max-w-sm mx-auto">
-      <h1 className="text-lg font-semibold mb-4">Интернет гэж юу вэ?</h1>
+      <h1 className="text-lg font-semibold mb-4 w-[100px]"></h1>
       {/* Хүссэн хувь дамжуулна */}
       <ProgressBar value={50} />
     </div>
