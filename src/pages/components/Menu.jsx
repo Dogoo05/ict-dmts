@@ -39,7 +39,7 @@ export default function Menu() {
           />
           <div className="flex flex-col justify-center">
             <h1 className="font-extrabold text-[15px] text-blue-600 ">
-              ICT platform
+              ICT PLATFORM
             </h1>
             <h3 className="text-[15px] text-gray-500 w-100">
               Мэдээлэл технологийн систем
@@ -123,7 +123,7 @@ export default function Menu() {
 
       {/* Mobile dropdown */}
       {menuOpen && (
-        <div className="sm:hidden bg-white p-4 border-t-2 border-blue-600">
+        <div className="sm:hidden bg-white p-4 border-t-2 border-blue-600 flex flex-wrap">
           <Link
             href="/"
             className="block py-2 text-gray-700 transition-all duration-300 ease-in-out transform hover:text-blue-600 hover:scale-105 hover:shadow-lg hover:translate-y-[-3px] hover:bg-blue-100 hover:px-2 hover:rounded-lg"
