@@ -30,18 +30,18 @@ export default function Menu() {
 
   return (
     <div className="sticky top-0 z-[100] bg-white shadow-md">
-      <div className="flex flex-row items-center justify-between p-4 border-b-[4px] border-blue-600 ">
+      <div className="flex flex-row items-center justify-between  border-b-[4px] border-blue-600 ">
         {/* Logo хэсэг */}
-        <div className="flex flex-row justify-center items-center gap-3 w-30 pl-[50px]">
+        <div className="flex flex-row gap-3 w-30 h-20 pl-[30px] p-2">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUoo6qrbl67f3Yn3DZxmJfiKXPqInuzwOAjQ&s"
             alt=""
           />
-          <div className="flex flex-col w-[100px]">
+          <div className="flex flex-col justify-center">
             <h1 className="font-extrabold text-[15px] text-blue-600 ">
               ICT platform
             </h1>
-            <h3 className="text-[10px] text-gray-500">
+            <h3 className="text-[15px] text-gray-500 w-100">
               Мэдээлэл технологийн систем
             </h3>
           </div>

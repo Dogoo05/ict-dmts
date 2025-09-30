@@ -39,15 +39,6 @@ export default function Anhanshat() {
       <div className="bg-gradient-to-r from-violet-500 to-blue-500 p-10 ">
         <div className="max-w-7xl h-370 mx-auto text-white">
           <h2 className="text-3xl font-extrabold text-center mb-10 flex flex-wrap items-center gap-60">
-            <Link
-              href="/hicheeluud"
-              className="p-3 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
-             text-white font-bold 
-             hover:from-pink-500 hover:via-red-500 hover:to-yellow-400 
-              ease-in-out"
-            >
-              ⬅ Буцах
-            </Link>
             6-р ангийн сэдвүүд
           </h2>
 

@@ -29,10 +29,10 @@ export default function Testnuur() {
   ];
 
   return (
-    <div className="bg-gradient-to-bl from-blue-500 to-violet-600 min-h-screen">
+    <div className="bg-gradient-to-bl from-blue-500 to-violet-600 w-full">
       {/* Header */}
-      <div className="text-center px-4 py-10">
-        <h1 className="font-extrabold text-4xl sm:text-5xl text-white mb-4 drop-shadow-lg">
+      <div className="text-center ">
+        <h1 className="font-extrabold text-4xl sm:text-5xl text-white mb-4 drop-shadow-lg pt-[20px]">
           Хичээлийн төрлүүд
         </h1>
         <h2 className="text-lg sm:text-xl text-white/90">
@@ -41,7 +41,7 @@ export default function Testnuur() {
       </div>
 
       {/* Cards */}
-      <div className="p-8 sm:p-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="py-8 sm:py-12 px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
         {cards.map((card, i) => (
           <Link key={i} href={card.href}>
             <div

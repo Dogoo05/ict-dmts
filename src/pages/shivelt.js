@@ -7,7 +7,7 @@ export default function Shivelet() {
   // const mongol = ["НОМ","ГЭР","НАР","ТАВ","СОН","ҮЛГ"];  <-- жишээ (Cyrillic) — таны хүссэн үгсээр солих
 
   return (
-    <div className="p-6">
+    <div className="">
       <InteractiveKeyboard3
         // wordList={mongol} // монгол үгс (Cyrillic) хэрэглэх бол энэ мөрийн comment-ыг авч ашиглана
         successDuration={1000}

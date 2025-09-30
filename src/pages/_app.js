@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
   const shouldHideMenuFooter = hideMenuFooterRoutes.includes(router.pathname);
 
   return (
-    <div>
+    <div className="">
       {!shouldHideMenuFooter && <Menu />}
       <Component {...pageProps} />
       {!shouldHideMenuFooter && <Footer />}
