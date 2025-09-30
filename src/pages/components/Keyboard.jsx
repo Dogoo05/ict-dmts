@@ -324,27 +324,29 @@ export default function KeyboardTrainer() {
         </div>
 
         {/* Keyboard */}
-        <div className="flex flex-col gap-3">
-          {layout.map((row, ri) => (
-            <div key={ri} className="flex justify-center gap-2">
-              {row.map((k) => (
-                <button
-                  key={k}
-                  onClick={() => handleKeyClick(k)}
-                  disabled={blocked || !isRunning}
-                  className={`select-none rounded-lg p-1 text-auto font-semibold shadow-md active:scale-95 transition ${getKeyStyle(
-                    k
-                  )}`}
-                >
-                  {k}
-                </button>
-              ))}
-            </div>
-          ))}
+        <div className="">
+          <div className="flex flex-col w-auto">
+            {layout.map((row, ri) => (
+              <div key={ri} className="flex justify-center gap-2">
+                {row.map((k) => (
+                  <button
+                    key={k}
+                    onClick={() => handleKeyClick(k)}
+                    disabled={blocked || !isRunning}
+                    className={`select-none rounded-lg  text-auto  shadow-md active:scale-9 transition ${getKeyStyle(
+                      k
+                    )}`}
+                  >
+                    {k}
+                  </button>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Статистик */}
-        <div className="text-[8px] mt-6 grid grid-cols-4 md:grid-cols-4 gap-3 text-center font-bold">
+        <div className="text-[10px] mt-6 grid grid-cols-4 md:grid-cols-4 gap-3 text-center font-bold">
           <div className="p-1 bg-green-300 rounded-xl">
             ✅ Зөв: {correctCount}
           </div>
