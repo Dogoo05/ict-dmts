@@ -6,10 +6,7 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold mb-4">Нууцлалын бодлого</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
-            Энэхүү цахим хуудасны шинэлэгчилсэн хувилбарыг НҮБ-ын Хүүхдийн Сан,
-            НҮБ-ын Хяну Агга Хэмжээ, Нэхэн Сэргэх Сангийн дэмжлэгтэйгээр
-            Боловсрол, Шинжлэх Ухааны Яам, Боловсролын Мэдээллийн Технологийн
-            Төв хөгжүүлэв. 2025 он
+          дэлгэрмөрөн цогцолбор сургуулийн 10-Г ангийн сурагч Тэлмүүн 
           </p>
           <div className="flex gap-4 mt-4 text-xl">
             <i className="fa-regular fa-copyright"></i>

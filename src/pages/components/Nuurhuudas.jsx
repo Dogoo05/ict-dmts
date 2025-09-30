@@ -1,3 +1,4 @@
+// components/Nuurhuudas.tsx
 import Link from "next/link";
 import HeroSwiper from "./Slider";
 
@@ -6,7 +7,7 @@ export default function Nuurhuudas() {
     <div
       className="flex flex-col justify-center items-center
                  bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-700
-                 gap-4 min-h-screen px-4"
+                 gap-6 min-h-screen px-4"
     >
       {/* Header */}
       <div className="flex flex-col items-center justify-center p-6 text-center">
@@ -23,35 +24,41 @@ export default function Nuurhuudas() {
       </div>
 
       {/* Stats Cards */}
-      <div className="flex flex-wrap justify-center gap-6 px-4">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 px-4">
         <Link
           href="/"
-          className="flex flex-col items-center justify-center bg-white p-5 w-[160px] md:w-[190px]
+          className="flex flex-col items-center justify-center bg-white p-5 w-[140px] sm:w-[160px] md:w-[190px]
                      rounded-2xl border-t-[6px] border-blue-700 shadow-xl
                      hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
         >
           <h1 className="text-3xl text-blue-700">62</h1>
-          <p className="text-gray-900 text-center">Нийт хичээл</p>
+          <p className="text-gray-900 text-center text-sm sm:text-base">
+            Нийт хичээл
+          </p>
         </Link>
 
         <Link
           href="/"
-          className="flex flex-col items-center justify-center bg-white p-5 w-[160px] md:w-[190px]
+          className="flex flex-col items-center justify-center bg-white p-5 w-[140px] sm:w-[160px] md:w-[190px]
                      rounded-2xl border-t-[6px] border-green-700 shadow-xl
                      hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
         >
           <h1 className="text-3xl text-green-700">100</h1>
-          <p className="text-gray-900 text-center">Бүртгэлтэй сурагч</p>
+          <p className="text-gray-900 text-center text-sm sm:text-base">
+            Бүртгэлтэй сурагч
+          </p>
         </Link>
 
         <Link
           href="/"
-          className="flex flex-col items-center justify-center bg-white p-5 w-[160px] md:w-[190px]
+          className="flex flex-col items-center justify-center bg-white p-5 w-[140px] sm:w-[160px] md:w-[190px]
                      rounded-2xl border-t-[6px] border-purple-700 shadow-xl
                      hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
         >
           <h1 className="text-3xl text-purple-700">8</h1>
-          <p className="text-gray-900 text-center">Амжилтын тэмдэг</p>
+          <p className="text-gray-900 text-center text-sm sm:text-base">
+            Амжилтын тэмдэг
+          </p>
         </Link>
       </div>
 
