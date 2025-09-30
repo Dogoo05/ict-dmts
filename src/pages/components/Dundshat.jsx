@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const lessons = [
   {
-    title: "Мэдээлэл ба Мэдээллийн Технологи",
+    title: "Компьютер мэдээлэл боловсруулах",
     desc: "Мэдээлэл гэдэг нь харилцан хамааралтай өгөгдөл, утга агуулгатай материал. Харин мэдээллийн технологи нь мэдээллийг удирдах, боловсруулах, хадгалах, түгээхэд ашиглагдана.",
     img: "https://content.ikon.mn/news/2019/7/26/2b7c45_information-technology_x974.jpg",
     video: "https://www.youtube.com/watch?v=SzJ46YA_RaA",
@@ -37,30 +37,7 @@ const lessons = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4XR41bXe-iI5109qitmVU2vvkrYXX9fk4CTgCIOUwhNHMGIMDSo3E8uf9791Y19JuMCQ&usqp=CAU",
     video: "https://www.youtube.com/watch?v=3ZAFz5_JQjM",
   },
-  {
-    title: "Мэдээллийн Аюулгүй Байдал",
-    desc: "Криптографи, Firewall, антивирус зэрэг технологи нь мэдээллийг хамгаална.",
-    img: "https://itools.mn/wp-content/uploads/2022/09/MicrosoftTeams-imagebc8000376f5bd64a84fb731c7ddb89820eb1d142fffd334d8daa3090259024a1.jpg",
-    video: "https://www.youtube.com/watch?v=vy-H7Q3Ytyw",
-  },
-  {
-    title: "Мобайл Хөгжүүлэлт",
-    desc: "Android, iOS болон React Native ашиглан мобайл аппликэйшн бүтээнэ.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3NwnBo0EKK1fD89dPZCjFzdLp_UejBRrJg&s",
-    video: "https://www.youtube.com/watch?v=UMy4v8l2O_k",
-  },
-  {
-    title: "Өгөгдлийн Анализ",
-    desc: "Python, R, Excel ашиглан өгөгдөлд дүн шинжилгээ хийх боломжтой.",
-    img: "https://www.bodi-electronics.mn/files/img/0.311000001680859789.jpg",
-    video: "https://www.youtube.com/watch?v=4_x0Jz4a-qw",
-  },
-  {
-    title: "Нээлттэй Эх Код",
-    desc: "GitHub, Apache, Linux зэрэг нь нээлттэй эхийн програм хангамжуудын жишээ.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmPYWXAdBVPmOr2UNwOAwq7x7v7KdvT7Esw&s",
-    video: "https://www.youtube.com/watch?v=6nI0YfXG3aQ",
-  },
+  
 ];
 
 export default function Dundshat() {
@@ -68,9 +45,9 @@ export default function Dundshat() {
     <div className="min-h-screen bg-gray-100">
       <div className="sticky top-0 z-10 bg-white shadow-md"></div>
       <div className="bg-gradient-to-r from-violet-500 to-blue-500 p-10">
-        <div className="max-w-7xl mx-auto text-white">
+        <div className="max-w-7xl mx-auto text-white flex flex-col items-center">
           <h2 className="text-3xl font-extrabold text-center mb-10 flex flex-row items-center gap-60">
-            7-р ангийн сэдвүүд
+            Компьютер
           </h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

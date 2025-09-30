@@ -60,7 +60,7 @@ export default function Footer() {
 
       {/* доод хэсгийн social */}
       <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-        <p>© 2025 ЕБС Сургалт. Бүх эрх хуулиар хамгаалагдаагүй</p>
+        <p>© 2025 ЕБС Сургалт.Бүх эрх хуулиар хамгаалагдаагүй</p>
         <div className="flex gap-4 mt-4 md:mt-0 text-xl">
           <a href="#">
             <i className="fa-brands fa-facebook"></i>

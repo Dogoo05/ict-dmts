@@ -30,25 +30,26 @@ export default function Menu() {
 
   return (
     <div className="sticky top-0 z-[100] bg-white shadow-md">
-      <div className="flex flex-row items-center justify-between  border-b-[4px] border-blue-600 ">
+      <div className="flex flex-row items-center justify-between border-b-[4px] border-blue-600 px-4 max-w-screen-xl mx-auto">
         {/* Logo хэсэг */}
-        <div className="flex flex-row gap-3 w-30 h-20 pl-[30px] p-2">
+        <div className="flex flex-row gap-3 h-[50px] items-center">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUoo6qrbl67f3Yn3DZxmJfiKXPqInuzwOAjQ&s"
-            alt=""
+            alt="logo"
+            className="h-[40px] w-auto"
           />
           <div className="flex flex-col justify-center">
             <h1 className="font-extrabold text-[15px] text-blue-600 ">
               ICT PLATFORM
             </h1>
-            <h3 className="text-[15px] text-gray-500 w-100">
+            <h3 className="text-[13px] text-gray-500">
               Мэдээлэл технологийн систем
             </h3>
           </div>
         </div>
 
         {/* Desktop menu */}
-        <div className="hidden sm:flex flex-row items-center justify-center gap-[50px] font-semibold pr-[50px] text-gray-700">
+        <div className="hidden sm:flex flex-row items-center justify-center gap-[40px] font-semibold pr-[30px] text-gray-700">
           <Link
             href="/"
             className="transition-all duration-300 ease-in-out transform hover:text-blue-600 hover:scale-105 hover:shadow-lg hover:translate-y-[-3px] hover:bg-blue-100 hover:px-2 hover:rounded-lg"
@@ -123,7 +124,7 @@ export default function Menu() {
 
       {/* Mobile dropdown */}
       {menuOpen && (
-        <div className="sm:hidden bg-white p-4 border-t-2 border-blue-600 flex flex-col ">
+        <div className="sm:hidden bg-white p-4 border-t-2 border-blue-600 flex flex-col">
           <Link
             href="/"
             className="block py-2 text-gray-700 transition-all duration-300 ease-in-out transform hover:text-blue-600 hover:scale-105 hover:shadow-lg hover:translate-y-[-3px] hover:bg-blue-100 hover:px-2 hover:rounded-lg"

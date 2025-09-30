@@ -59,7 +59,7 @@ export default function Hicheeluud() {
 
       {/* Cards */}
       {/* Cards */}
-      <div className="p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="p-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {cards.map((card, i) => (
           <Link key={i} href={card.href}>
             <div

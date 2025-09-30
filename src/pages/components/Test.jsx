@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 const datashu = [
   {
     id: 1,
-    question: "Компьютер гэдэг юу вэ?",
+    question: "Компьютер гэж юу вэ?",
     answers: [
       "A. Хүнсний бүтээгдэхүүн",
       "B. Мэдээллийг боловсруулах, хадгалах, дамжуулах төхөөрөмж",
