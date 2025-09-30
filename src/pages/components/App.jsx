@@ -1,4 +1,4 @@
-import QuizApp from "./Quiz";
+
 
 function ProgressBar({ value }) {
   return (

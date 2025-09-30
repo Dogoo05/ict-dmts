@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Menu from "./Menu";
 
 export default function Testnuur() {
   const cards = [

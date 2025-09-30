@@ -1,8 +1,6 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import { Menu as MenuIcon } from "lucide-react";
-import Menu from "./Menu";
-
 const easyWords = ["А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К"];
 const mediumSentences = [
   "Миний нэрийг Бат гэдэг.",
