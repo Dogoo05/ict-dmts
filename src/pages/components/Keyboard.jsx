@@ -16,7 +16,7 @@ const layout = [
   ["Ф", "Ц", "У", "Ж", "Э", "Н", "Г", "Ш", "Ү", "З", "К"],
   ["Й", "Ы", "Б", "Ө", "А", "Х", "Р", "О", "Л", "Д", "П", "Enter"],
   ["Я", "Ч", "Ё", "С", "М", "И", "Т", "Ь", "В", "Ю", ".", "Shift"],
-["SPACE"]
+  [" "], // <-- Зөв болгох хэсэг
 ];
 
 export default function KeyboardTrainer() {
@@ -113,7 +113,7 @@ export default function KeyboardTrainer() {
   function handleKeyClick(k) {
     if (blocked || !isRunning) return;
 
-    if (k === "ЗАЙ" || k === " ") {
+    if (k === "ЗАЙ" || k === " SPACE") {
       k = " ";
     } else if (k === "delete") {
       setInput((prev) => prev.slice(0, -1));
