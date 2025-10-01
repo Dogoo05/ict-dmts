@@ -4,25 +4,21 @@ export default function Testnuur() {
   const cards = [
     {
       level: "Easy",
-      text: "6-р ангийн сурах бичгийн мэдээллийн дагуу текст",
       href: "/test",
       gradient: "from-green-400 to-emerald-600",
     },
     {
       level: "Normal",
-      text: "7-р ангийн сурах бичгийн мэдээллийн дагуу текст",
       href: "/test2",
       gradient: "from-blue-500 to-indigo-700",
     },
     {
       level: "Medium",
-      text: "8-р ангийн сурах бичгийн мэдээллийн дагуу текст",
       href: "/test3",
       gradient: "from-yellow-400 to-orange-600",
     },
     {
       level: "Hard",
-      text: "9-р ангийн сурах бичгийн мэдээллийн дагуу текст",
       href: "/test4",
       gradient: "from-pink-500 to-red-700",
     },
