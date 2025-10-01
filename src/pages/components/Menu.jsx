@@ -30,7 +30,7 @@ export default function Menu() {
 
   return (
     <div className="sticky top-0 z-[100] bg-white shadow-md">
-      <div className="flex flex-row items-center justify-between border-b-[4px] border-blue-600 px-4 max-w-screen-xl mx-auto">
+      <div className="flex flex-row items-center justify-between border-b-[4px] border-blue-600 px-4 mx-auto">
         {/* Logo хэсэг */}
         <div className="flex flex-row gap-3 h-[50px] items-center">
           <img
