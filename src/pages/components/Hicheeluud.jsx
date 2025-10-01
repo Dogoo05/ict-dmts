@@ -10,35 +10,30 @@ export default function Hicheeluud() {
   const cards = [
     {
       title: "Мэдээлэл объект загвар",
-      text: "6-р ангийн сурах бичгийн мэдээлэл",
       href: "/anhanshat",
       comp: <Apps />,
       color: "from-green-400 to-emerald-600",
     },
     {
       title: "Компьютер",
-      text: "6-р ангийн сурах бичгийн мэдээлэл",
       href: "/dund",
       comp: <Ap />,
       color: "from-blue-400 to-indigo-600",
     },
     {
       title: "Бичвэр мэдээлэл боловсруулах технологи",
-      text: "6-р ангийн сурах бичгийн мэдээлэл",
       href: "/",
       comp: <Appp />,
       color: "from-purple-400 to-fuchsia-600",
     },
     {
       title: "Зураг боловсруулах технологи",
-      text: "6-р ангийн сурах бичгийн мэдээлэл",
       href: "/",
       comp: <Appa />,
       color: "from-pink-400 to-rose-600",
     },
     {
       title: "Цахим харилцаа ба интернэт технологи",
-      text: "6-р ангийн сурах бичгийн мэдээлэл",
       href: "/",
       comp: <Appaa />,
       color: "from-orange-400 to-red-600",
@@ -59,7 +54,7 @@ export default function Hicheeluud() {
 
       {/* Cards */}
       {/* Cards */}
-      <div className="p-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="p-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {cards.map((card, i) => (
           <Link key={i} href={card.href}>
             <div
@@ -67,7 +62,7 @@ export default function Hicheeluud() {
                     p-6 rounded-2xl shadow-xl 
                     hover:rotate-1 hover:scale-105 hover:shadow-2xl 
                     transition-all duration-300 ease-in-out 
-                    flex flex-col items-center text-center h-96`}
+                    flex flex-col items-center text-center h-76`}
             >
               {/* Icon */}
 
