@@ -33,7 +33,7 @@ export default function Hicheeluud() {
       color: "from-pink-400 to-rose-600",
     },
     {
-      title: "Цахим харилцаа ба интернэт",
+      title: "Цахим харилцаа, интернэт",
       href: "/",
       comp: <Appaa />,
       color: "from-orange-400 to-red-600",
