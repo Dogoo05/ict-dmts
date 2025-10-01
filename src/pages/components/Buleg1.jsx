@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Slide2 from "./Slide2";
 
 export default function Buleg1() {
   return (
@@ -46,13 +47,8 @@ export default function Buleg1() {
         </div>
 
         {/* Дадлага бодлого */}
-        <div className="bg-gradient-to-r from-pink-100 to-red-100 shadow-lg rounded-2xl p-6 mt-10">
-          <h2 className="text-2xl font-extrabold text-red-600 mb-4 flex flex-col items-center justify-center w-auto h-auto">
-            <img
-              src="https://image.slidesharecdn.com/medeelel10-111021232352-phpapp01/85/Medeelel-10-1-320.jpg"
-              alt=""
-            />
-          </h2>
+        <div>
+          <Slide2 />
         </div>
 
         {/* QUIZ товч */}
