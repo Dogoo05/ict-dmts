@@ -21,7 +21,7 @@ export default function Hicheeluud() {
       color: "from-blue-400 to-indigo-600",
     },
     {
-      title: "Бичвэр мэдээлэл боловсруулах технологи",
+      title: "Бичвэр мэдээлэл боловсруулах ",
       href: "/",
       comp: <Appp />,
       color: "from-purple-400 to-fuchsia-600",
@@ -33,7 +33,7 @@ export default function Hicheeluud() {
       color: "from-pink-400 to-rose-600",
     },
     {
-      title: "Цахим харилцаа ба интернэт технологи",
+      title: "Цахим харилцаа ба интернэт",
       href: "/",
       comp: <Appaa />,
       color: "from-orange-400 to-red-600",
