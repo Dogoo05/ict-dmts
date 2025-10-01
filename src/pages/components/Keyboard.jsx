@@ -87,7 +87,7 @@ export default function KeyboardTrainer() {
       if (blocked || !isRunning) return;
       const key = e.key.toUpperCase();
 
-      if (/^[А-ЯӨҮЁ.,\-]$/.test(key)) {
+      if (/^[А-ЯЁӨҮ.,\s]$/i.test(key)) {
         e.preventDefault();
         handleKeyClick(key);
       } else if (e.code === "Space") {
@@ -95,7 +95,13 @@ export default function KeyboardTrainer() {
         handleKeyClick(" ");
       } else if (e.code === "Backspace") {
         e.preventDefault();
-        handleKeyClick("АРИЛГАХ");
+        handleKeyClick("delete");
+      } else if (e.code === "Enter") {
+        e.preventDefault();
+        handleKeyClick("Enter");
+      } else if (e.code === "ShiftLeft" || e.code === "ShiftRight") {
+        e.preventDefault();
+        handleKeyClick("Shift");
       }
     }
 
@@ -108,7 +114,7 @@ export default function KeyboardTrainer() {
 
     if (k === "ЗАЙ" || k === " ") {
       k = " ";
-    } else if (k === "АРИЛГАХ") {
+    } else if (k === "delete") {
       setInput((prev) => prev.slice(0, -1));
       return;
     }
